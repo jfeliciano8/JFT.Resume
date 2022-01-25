@@ -1,0 +1,96 @@
+* {box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient( silver, gray);
+    padding: 10px;
+}
+.brand {
+    background-color: gray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline;
+}
+.brand-header {
+    border-bottom: 3px solid black;
+}
+.row {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border-style: solid;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+}
+.story {
+    border-style: solid;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+.quarter {
+    width: 25%;
+}
+.half {
+    width: 50%;
+}
+.three-quarter {
+    width: 75%;
+}
+.article-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.article-title {
+    font-size: 32px;
+    margin: 15px, 0;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+}
+.article-text {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.bullet-list {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.other-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin:0;
+}
+.site-section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.section-link {
+    color: black;
+    text-decoration: ;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.section-link:hover {
+    text-decoration: underline;
+    font-size: 40px;
+    color: silver;
+}
+.site-section-previous-employers {
+    background-color: rgb(80,80,80);
+}
+.site-sections-skills {
+    background-color: rgb(128,128,128);
+}
+.site-section-references {
+    background-color: rgb(168,168,168);
+}
